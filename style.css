@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    position:absolute;
+    position:relative;
 }
 /* logo and image - navbar */
 #logo img{
@@ -107,9 +107,10 @@
     background-color: rgb(226, 209, 209);
 }
 #services .box img{
-   height: 250px;
+   height: auto;
    display: block;
    margin: auto;
+   object-fit: cover;
 }
 
 #services{}
@@ -176,9 +177,10 @@ padding: 9px 20px ;
     align-items: center;
 
 }
-.clients img{
-    height: 124px;
-    border-radius: 9px;
+#clients img{
+    width: 100%;
+    height: auto;
+    border-radius: 9px; 
 }
 #client-section{
     height: 344px;
@@ -195,7 +197,8 @@ padding: 9px 20px ;
 
 }
 .client-item{
-    padding: 34px;
+    padding: 6px;
+   
 }
 /* contacts */
 #contact{

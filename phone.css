@@ -18,4 +18,8 @@
 
 #clients {
     overflow: hidden;
+    
+}
+.client-item{
+    padding: 6px;
 }
